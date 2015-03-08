@@ -102,7 +102,7 @@ public class SmallRobot extends RobotBase
 				this.setSelected(true);
 	}
 		
-	@Override
+	
 	public void update(Time deltaTime) {
 		
 		// TODO Auto-generated method stub
@@ -341,7 +341,7 @@ public class SmallRobot extends RobotBase
 	/* (non-Javadoc)
 	 * @see CorePlayer.RobotBase#loadContent()
 	 */
-	@Override
+	
 	public void loadContent()
 	{
 		// TODO Auto-generated method stub
@@ -381,7 +381,7 @@ public class SmallRobot extends RobotBase
 	/* (non-Javadoc)
 	 * @see CorePlayer.RobotBase#draw(org.jsfml.graphics.RenderTarget, org.jsfml.graphics.RenderStates)
 	 */
-	@Override
+	
 	public void draw(RenderTarget render, RenderStates state) {
 		// TODO Auto-generated method stub
 		super.draw(render, state);

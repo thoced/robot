@@ -70,14 +70,14 @@ public class ElementBase implements IGameBase
 
 	}
 	
-	@Override
+	
 	public void Update(Time deltaTime) 
 	{
 		// TODO Auto-generated method stub
 		
 	}
 
-	@Override
+	
 	public void Draw(RenderTexture window) 
 	{
 		
@@ -88,14 +88,14 @@ public class ElementBase implements IGameBase
 	
 	}
 
-	@Override
+	
 	public FloatRect GetGlobalBounds() 
 	{
 		// TODO Auto-generated method stub
 		return rectvue.getGlobalBounds();
 	}
 
-	@Override
+	
 	public FloatRect GetLocalBounds()
 	{
 		// TODO Auto-generated method stub
@@ -104,7 +104,7 @@ public class ElementBase implements IGameBase
 
 	
 
-	@Override
+	
 	public void Init(Framework parent) {
 		// TODO Auto-generated method stub
 		

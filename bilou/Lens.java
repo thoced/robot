@@ -33,7 +33,7 @@ public class Lens implements IGameBase
 	// Sprite 
 	private Sprite spriteLens;
 	
-	@Override
+	
 	public void Init(Framework parent) throws IOException, ShaderSourceException
 	{
 		
@@ -56,7 +56,7 @@ public class Lens implements IGameBase
 		
 	}
 
-	@Override
+	
 	public void Update(Time deltaTime) 
 	{
 		// TODO Auto-generated method stub
@@ -68,7 +68,7 @@ public class Lens implements IGameBase
 		return null;
 	}
 
-	@Override
+	
 	public void Draw(RenderTexture backbuffer) 
 	{
 		// on récupère la texture du backbuffer;
@@ -81,13 +81,13 @@ public class Lens implements IGameBase
 
 	}
 
-	@Override
+	
 	public FloatRect GetGlobalBounds() {
 		// TODO Auto-generated method stub
 		return null;
 	}
 
-	@Override
+	
 	public FloatRect GetLocalBounds() {
 		// TODO Auto-generated method stub
 		return null;

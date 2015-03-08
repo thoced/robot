@@ -23,14 +23,14 @@ public class wall implements Iunitbase
 		
 	}
 
-	@Override
+	
 	public void update(Time deltaTime) {
 		// TODO Auto-generated method stub
 		//rect.setRotation(rotation * deltaTime.asSeconds());
 		//rotation += speed;
 	}
 
-	@Override
+	
 	public void draw(RenderWindow window) {
 		// TODO Auto-generated method stub
 		window.draw(rect);

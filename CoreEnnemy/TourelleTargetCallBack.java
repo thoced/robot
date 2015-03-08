@@ -72,7 +72,7 @@ public class TourelleTargetCallBack implements RayCastCallback
 		this.fraction = fraction;
 	}
 
-	@Override
+	
 	public float reportFixture(Fixture fix, Vec2 pos, Vec2 normal, float fraction) 
 	{
 		// position de l'impact

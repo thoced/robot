@@ -46,7 +46,7 @@ public class ManagerGrapnel extends ManagerBase
 		this.rayCast = new rayCastGrapnel();
 	}
 	
-	@Override
+	
 	public void draw(RenderTarget render, RenderStates state) 
 	{
 		// affichage du raycast
@@ -54,7 +54,7 @@ public class ManagerGrapnel extends ManagerBase
 		
 	}
 
-	@Override
+	
 	public void update(Time deltaTime) 
 	{
 		// on récupère la position de la souris
@@ -75,31 +75,31 @@ public class ManagerGrapnel extends ManagerBase
 		
 	}
 
-	@Override
+	
 	public void loadContent() {
 		// TODO Auto-generated method stub
 		
 	}
 
-	@Override
+	
 	public void reloadContent() {
 		// TODO Auto-generated method stub
 		
 	}
 
-	@Override
+	
 	public void deleteContent() {
 		// TODO Auto-generated method stub
 		
 	}
 
-	@Override
+	
 	public void init() {
 		// TODO Auto-generated method stub
 		
 	}
 
-	@Override
+	
 	public void catchEvent(Event e) {
 		// TODO Auto-generated method stub
 		

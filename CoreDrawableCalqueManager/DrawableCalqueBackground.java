@@ -53,7 +53,7 @@ public class DrawableCalqueBackground extends DrawableCalqueBase
 	
 	
 
-	@Override
+	
 	public void draw(RenderTarget render, RenderStates state) 
 	{
 		// TODO Auto-generated method stub
@@ -62,7 +62,7 @@ public class DrawableCalqueBackground extends DrawableCalqueBase
 		
 	}
 
-	@Override
+	
 	public void Update(Time deltaTime) {
 		// TODO Auto-generated method stub
 		

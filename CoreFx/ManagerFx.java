@@ -28,7 +28,7 @@ public class ManagerFx implements Drawable,ICoreBase
 		this.listFx.add(fx);
 	}
 
-	@Override
+	
 	public void update(Time deltaTime) 
 	{
 		// on boucle sur la liste et on appel les methode update
@@ -37,37 +37,37 @@ public class ManagerFx implements Drawable,ICoreBase
 		
 	}
 
-	@Override
+	
 	public void loadContent() {
 		// TODO Auto-generated method stub
 		
 	}
 
-	@Override
+	
 	public void reloadContent() {
 		// TODO Auto-generated method stub
 		
 	}
 
-	@Override
+	
 	public void deleteContent() {
 		// TODO Auto-generated method stub
 		
 	}
 
-	@Override
+	
 	public void init() {
 		// TODO Auto-generated method stub
 		
 	}
 
-	@Override
+	
 	public void catchEvent(Event e) {
 		// TODO Auto-generated method stub
 		
 	}
 
-	@Override
+	
 	public void draw(RenderTarget render, RenderStates state) 
 	{
 		// on boucle sur la liste et on appel les methode draw

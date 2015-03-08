@@ -96,7 +96,7 @@ public class BigRobotControl extends RobotBase
 		
 	
 	
-	@Override
+	
 	public void Update(Time elapsedTime) 
 	{
 		//if(!body.isAwake())
@@ -156,14 +156,14 @@ public class BigRobotControl extends RobotBase
 
 	
 
-	@Override
+	
 	public void UpdateMVC() 
 	{
 		
 		
 	}
 
-	@Override
+	
 	public void LoadContent() {
 		// TODO Auto-generated method stub
 		
@@ -178,7 +178,7 @@ public class BigRobotControl extends RobotBase
 
 	
 
-	@Override
+	
 	public void SetEvent(Event e)
 	{
 		

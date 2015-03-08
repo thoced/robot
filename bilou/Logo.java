@@ -56,7 +56,7 @@ public class Logo implements IGameBase
 		
 	}
 	
-	@Override
+	
 	public void Update(Time deltaTime) 
 	{
 		// TODO Auto-generated method stub
@@ -75,7 +75,7 @@ public class Logo implements IGameBase
 
 	}
 
-	@Override
+	
 	public void Draw(RenderTexture window) 
 	{
 		// TODO Auto-generated method stub
@@ -90,19 +90,19 @@ public class Logo implements IGameBase
 		
 	}
 
-	@Override
+	
 	public FloatRect GetGlobalBounds() {
 		// TODO Auto-generated method stub
 		return null;
 	}
 
-	@Override
+	
 	public FloatRect GetLocalBounds() {
 		// TODO Auto-generated method stub
 		return null;
 	}
 
-	@Override
+	
 	public void Init(Framework parent) 
 	{
 		

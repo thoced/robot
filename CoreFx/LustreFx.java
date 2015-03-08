@@ -218,7 +218,7 @@ public class LustreFx extends BaseFx
 	/* (non-Javadoc)
 	 * @see CoreFx.BaseFx#draw(org.jsfml.graphics.RenderTarget, org.jsfml.graphics.RenderStates)
 	 */
-	@Override
+	
 	public void draw(RenderTarget render, RenderStates state)
 	{
 		// TODO Auto-generated method stub
@@ -249,7 +249,7 @@ public class LustreFx extends BaseFx
 	/* (non-Javadoc)
 	 * @see CoreFx.BaseFx#update(org.jsfml.system.Time)
 	 */
-	@Override
+	
 	public void update(Time deltaTime) 
 	{
 		// TODO Auto-generated method stub

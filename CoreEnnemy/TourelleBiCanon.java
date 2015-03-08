@@ -127,7 +127,7 @@ public class TourelleBiCanon extends BaseFx
 		this.listRemoveBalls.add(ball);
 	}
 	
-	@Override
+	
 	public void update(Time deltaTime) 
 	{
 		// TODO Auto-generated method stub
@@ -179,7 +179,7 @@ public class TourelleBiCanon extends BaseFx
 	}
 
 	
-	@Override
+	
 	public void draw(RenderTarget render, RenderStates state) 
 	{
 		// TODO Auto-generated method stub

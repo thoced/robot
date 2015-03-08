@@ -23,7 +23,7 @@ public class ObstacleRectangle extends ObstacleBase
 		this.obs = new IntRect(posX,posY,this.width,this.height);
 	}
 
-	@Override
+	
 	public ObstacleResult IsPointCollision(int x, int y) 
 	{
 		// si le point est dans le rectangle
@@ -33,7 +33,7 @@ public class ObstacleRectangle extends ObstacleBase
 			return null;
 	}
 
-	@Override
+	
 	public ObstacleResult IsRectangleCollision(int x, int y, int width,
 			int height) {
 		// si la collision se fait avec deux rectangles
@@ -45,7 +45,7 @@ public class ObstacleRectangle extends ObstacleBase
 			return null;
 	}
 
-	@Override
+	
 	public ObstacleResult IsLineCollision(int x1, int y1, int x2, int y2) 
 	{
 		// TODO Auto-generated method stub

@@ -124,109 +124,109 @@ public  class DrawableMap implements Drawable, Transformable
 	}
 	
 
-	@Override
+	
 	public Vector2f getOrigin() {
 		// TODO Auto-generated method stub
 		return null;
 	}
 
-	@Override
+	
 	public Vector2f getPosition() {
 		// TODO Auto-generated method stub
 		return null;
 	}
 
-	@Override
+	
 	public float getRotation() {
 		// TODO Auto-generated method stub
 		return 0;
 	}
 
-	@Override
+	
 	public Vector2f getScale() {
 		// TODO Auto-generated method stub
 		return null;
 	}
 
-	@Override
+	
 	public Transform getTransform() {
 		// TODO Auto-generated method stub
 		return Transform.IDENTITY;
 	}
 
-	@Override
+	
 	public void move(Vector2f arg0) {
 		// TODO Auto-generated method stub
 		
 	}
 
-	@Override
+	
 	public void move(float arg0, float arg1) {
 		// TODO Auto-generated method stub
 		
 	}
 
-	@Override
+	
 	public void rotate(float arg0) {
 		// TODO Auto-generated method stub
 		
 	}
 
-	@Override
+	
 	public void scale(Vector2f arg0) {
 		// TODO Auto-generated method stub
 		
 	}
 
-	@Override
+	
 	public void scale(float arg0, float arg1) {
 		// TODO Auto-generated method stub
 		
 	}
 
-	@Override
+	
 	public void setOrigin(Vector2f arg0) {
 		// TODO Auto-generated method stub
 		
 	}
 
-	@Override
+	
 	public void setOrigin(float arg0, float arg1) {
 		// TODO Auto-generated method stub
 		
 	}
 
-	@Override
+	
 	public void setPosition(Vector2f arg0) {
 		// TODO Auto-generated method stub
 		
 	}
 
-	@Override
+	
 	public void setPosition(float arg0, float arg1) {
 		// TODO Auto-generated method stub
 		
 	}
 
-	@Override
+	
 	public void setRotation(float arg0) {
 		// TODO Auto-generated method stub
 		
 	}
 
-	@Override
+	
 	public void setScale(Vector2f arg0) {
 		// TODO Auto-generated method stub
 		
 	}
 
-	@Override
+	
 	public void setScale(float arg0, float arg1) {
 		// TODO Auto-generated method stu,camera.getView().getViewport()b
 		
 	}
 
-	@Override
+	
 	public void draw(RenderTarget renderTarget,RenderStates states) 
 	{
 		RenderStates newStates = new RenderStates(BlendMode.ALPHA,
@@ -239,7 +239,7 @@ public  class DrawableMap implements Drawable, Transformable
 		
 	}
 
-	@Override
+	
 	public Transform getInverseTransform() {
 		// TODO Auto-generated method stub
 		return null;

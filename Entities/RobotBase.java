@@ -30,25 +30,25 @@ public class RobotBase extends EntitieBase
 		
 	protected Fixture ff;
 	
-	@Override
+	
 	public void Update(Time elapsedTime) {
 		// TODO Auto-generated method stub
 		
 	}
 
-	@Override
+	
 	public void LoadContent() {
 		// TODO Auto-generated method stub
 		
 	}
 
-	@Override
+	
 	public void SetEvent(Event e) {
 		// TODO Auto-generated method stub
 		
 	}
 
-	@Override
+	
 	public void UpdateMVC() {
 		// TODO Auto-generated method stub
 		

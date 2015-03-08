@@ -40,7 +40,7 @@ public class SmallRobotView extends RobotViewBase
 	
 	}
 
-	@Override
+	
 	public void Update(Time elapsedTime) 
 	{
 		// TODO Auto-generated method stub
@@ -79,7 +79,7 @@ public class SmallRobotView extends RobotViewBase
 		
 	}
 
-	@Override
+	
 	public void UpdateMVC() 
 	{
 		// appel callback venant du model mvc
@@ -100,7 +100,7 @@ public class SmallRobotView extends RobotViewBase
 		Camera.SetCenter(spritePlayer.getPosition());
 	}
 
-	@Override
+	
 	public void LoadContent() 
 	{
 		// TODO Auto-generated method stub
@@ -141,7 +141,7 @@ public class SmallRobotView extends RobotViewBase
 		this.pControl.setPositionPlayer(pos);
 	}
 
-	@Override
+	
 	public void SetEvent(Event e) 
 	{
 		// TODO Auto-generated method stub

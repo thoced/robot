@@ -103,7 +103,7 @@ public class EntitiesManager implements ICoreBase,Drawable
 	}
 	
 
-	@Override
+	
 	public void update(Time deltaTime)
 	{
 		// TODO Auto-generated method stub
@@ -113,7 +113,7 @@ public class EntitiesManager implements ICoreBase,Drawable
 
 	
 
-	@Override
+	
 	public void loadContent() 
 	{
 		// TODO Auto-generated method stub
@@ -130,25 +130,25 @@ public class EntitiesManager implements ICoreBase,Drawable
 		playerSelected = playerSmallRobot;
 	}
 
-	@Override
+	
 	public void reloadContent() {
 		// TODO Auto-generated method stub
 		
 	}
 
-	@Override
+	
 	public void deleteContent() {
 		// TODO Auto-generated method stub
 		
 	}
 
-	@Override
+	
 	public void init() {
 		// TODO Auto-generated method stub
 		
 	}
 
-	@Override
+	
 	public void catchEvent(Event e) 
 	{
 		// TODO Auto-generated method stub
@@ -157,7 +157,7 @@ public class EntitiesManager implements ICoreBase,Drawable
 	}
 
 
-	@Override
+	
 	public void draw(RenderTarget render, RenderStates state) 
 	{
 		render.draw(playerSmallRobot.getSpritePlayer());

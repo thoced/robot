@@ -65,7 +65,7 @@ public class rayCastGrapnel implements RayCastCallback, Drawable
 		
 	}
 	
-	@Override
+	
 	public float reportFixture(Fixture fix, Vec2 point, Vec2 normal, float fraction)
 	{
 		//si la fraction est suppérieur à 0
@@ -81,7 +81,7 @@ public class rayCastGrapnel implements RayCastCallback, Drawable
 		return fraction;
 	}
 
-	@Override
+	
 	public void draw(RenderTarget render, RenderStates state) 
 	{
 		// affichage du shape

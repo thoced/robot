@@ -46,7 +46,7 @@ public class BackgroundDrawable implements Drawable,ICoreBase
 		
 	}
 	
-	@Override
+	
 	public void draw(RenderTarget render, RenderStates state) 
 	{		
 		
@@ -95,7 +95,7 @@ public class BackgroundDrawable implements Drawable,ICoreBase
 			
 	}
 
-	@Override
+	
 	public void update(Time deltaTime) 
 	{
 		for(int i=0;i<this.listSprite.size();i++)
@@ -108,31 +108,31 @@ public class BackgroundDrawable implements Drawable,ICoreBase
 	}
 
 	
-	@Override
+	
 	public void loadContent() {
 		// TODO Auto-generated method stub
 		
 	}
 
-	@Override
+	
 	public void reloadContent() {
 		// TODO Auto-generated method stub
 		
 	}
 
-	@Override
+	
 	public void deleteContent() {
 		// TODO Auto-generated method stub
 		
 	}
 
-	@Override
+	
 	public void init() {
 		// TODO Auto-generated method stub
 		
 	}
 
-	@Override
+	
 	public void catchEvent(Event e) {
 		// TODO Auto-generated method stub
 		

@@ -107,7 +107,7 @@ public class JSONObject {
          *
          * @return NULL.
          */
-        @Override
+        
         protected final Object clone() {
             return this;
         }
@@ -120,7 +120,7 @@ public class JSONObject {
          * @return true if the object parameter is the JSONObject.NULL object or
          *         null.
          */
-        @Override
+        
         public boolean equals(Object object) {
             return object == null || object == this;
         }

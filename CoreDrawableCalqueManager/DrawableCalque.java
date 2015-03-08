@@ -22,13 +22,13 @@ public class DrawableCalque extends DrawableCalqueBase
 	}
 	
 
-	@Override
+	
 	public void Update(Time deltaTime) {
 		// TODO Auto-generated method stub
 		
 	}
 
-	@Override
+	
 	public void draw(RenderTarget render, RenderStates state) {
 		// affichage du calque
 				FloatRect result = Camera.GetBoundsVisible().intersection(this.imageCalque.getGlobalBounds());
